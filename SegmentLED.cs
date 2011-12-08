@@ -26,6 +26,14 @@ namespace Light_Sensor
             }
             switch (Value)
             {
+                case 0:
+                    LEDArray[0].Write(true); // 1
+                    LEDArray[4].Write(true); // 8
+                    LEDArray[1].Write(true); // 2
+                    LEDArray[6].Write(true); // 13
+                    LEDArray[3].Write(true); // 7
+                    LEDArray[7].Write(true); // 14
+                    break;
                 case 1:
                     LEDArray[1].Write(true); // 2
                     LEDArray[3].Write(true); // 7
