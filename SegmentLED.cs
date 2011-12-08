@@ -6,6 +6,20 @@ using SecretLabs.NETMF.Hardware;
 using SecretLabs.NETMF.Hardware.Netduino;
 using Light_Sensor;
 
+/* See Included Diagram.
+ * 
+ * D0 -> Pin 0
+ * D1 -> Pin 2
+ * D2 -> Pin 6
+ * D3 -> Pin 7
+ * D4 -> Pin 8
+ * D5 -> Pin 9
+ * D6 -> Pin 13
+ * D7 -> Pin 14
+ * 
+ * Gnd -> Pin 3
+ */
+
 namespace Light_Sensor
 {
     class SegmentLED

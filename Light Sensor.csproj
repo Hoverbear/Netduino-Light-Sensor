@@ -40,4 +40,7 @@
     <Reference Include="SecretLabs.NETMF.Hardware" />
     <Reference Include="SecretLabs.NETMF.Hardware.Netduino" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pinning Diagram.jpg" />
+  </ItemGroup>
 </Project>
